@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  font-family: monospace;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 17px;
+}
+body{
+  background-color: rgba(1, 42, 59, 0.89);
+}
+h1{
+  font-size: 28px;
+  margin-bottom: 2rem;
+}
+.container
+{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  margin-top: 9rem;
+  align-items: center;
+}
+
+button
+{
+  width: 100%;
+  background-color: crimson;
+  color:white;
+  width: 8rem;
+  height: 3rem;
+  margin-left:12px;
+  cursor: pointer;
+}
+
+button:hover,button:focus,button:active{
+  outline: none;
+}
+
+button:hover{
+  box-shadow: 2px 2px 4px black;
+}
